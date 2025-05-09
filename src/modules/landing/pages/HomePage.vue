@@ -7,5 +7,4 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </p>
   </div>
-  >
 </template>
