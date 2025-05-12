@@ -9,12 +9,41 @@
       </div>
       <nav class="ml-auto space-x-4 gap-4 flex items-center h-10 sm:space-x-6">
         <div class="flex gap-4">
-          <RouterLink class="hover:text-blue-500 font-semibold" to="/"> Home </RouterLink>
-          <RouterLink class="hover:text-blue-500 font-semibold" to="/features">
+          <RouterLink
+            class="hover:text-blue-500 font-semibold"
+            exact-active-class="text-blue-500"
+            to="/"
+          >
+            Home
+          </RouterLink>
+          <RouterLink
+            class="hover:text-blue-500 font-semibold"
+            exact-active-class="text-blue-500"
+            to="/features"
+          >
             Features
           </RouterLink>
-          <RouterLink class="hover:text-blue-500 font-semibold" to="/pricing"> Pricing </RouterLink>
-          <RouterLink class="hover:text-blue-500 font-semibold" to="/contact"> Contact </RouterLink>
+          <RouterLink
+            class="hover:text-blue-500 font-semibold"
+            exact-active-class="text-blue-500"
+            to="/pricing"
+          >
+            Pricing
+          </RouterLink>
+          <RouterLink
+            class="hover:text-blue-500 font-semibold"
+            exact-active-class="text-blue-500"
+            to="/contact"
+          >
+            Contact
+          </RouterLink>
+          <RouterLink
+            class="hover:text-blue-500 font-semibold"
+            exact-active-class="text-blue-500"
+            to="/pokemon/1"
+          >
+            Pokemon
+          </RouterLink>
         </div>
         <div>
           <RouterLink

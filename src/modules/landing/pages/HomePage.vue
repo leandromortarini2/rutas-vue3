@@ -8,3 +8,5 @@
     </p>
   </div>
 </template>
+
+<script src="./HomePage.ts" lang="ts"></script>
